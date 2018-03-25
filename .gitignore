@@ -1,0 +1,11 @@
+/target/
+# ignore all logs
+*.log
+# ignore all classes
+*.class
+.project
+.classpath
+.settings
+.DS_Store
+
+
