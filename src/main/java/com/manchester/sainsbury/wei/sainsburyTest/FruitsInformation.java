@@ -15,9 +15,8 @@ import org.jsoup.select.Elements;
 
 /**
  * @author Ms Wei Hu
- * @since 17th March 2018 This class is used to get the information from
- *        Sainsbury website according to JSON data requirement. Can only do it
- *        during weekend due to my current heavy work load
+ * This class is used to get the information from
+ *        Sainsbury website according to JSON data requirement. 
  *
  */
 public class FruitsInformation {

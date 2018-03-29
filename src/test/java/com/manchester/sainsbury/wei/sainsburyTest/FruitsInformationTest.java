@@ -56,7 +56,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Tests the URL connection.
  * 
- * @author Wei Hu
+ * @author W Hu
  */
 
 @RunWith(PowerMockRunner.class)
