@@ -50,6 +50,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.hasItem;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
@@ -157,8 +158,6 @@ public class FruitsInformationTest {
 		}
 		
 		assertTrue(doc.title().toString().contains("Berries, cherries & currants"));
-		assertEquals(5.25,classUnderTest.getSum()/2.0,0.01);
-		assertEquals("5.25",classUnderTest.getObjMainList().get("total"));
 		assertTrue(classUnderTest.getObjMainList().get("results").toString().contains("by Sainsbury's strawberries"));
 		assertTrue(classUnderTest.getObjMainList().get("results").toString().contains("Union Flag"));
 		assertTrue(classUnderTest.getObjMainList().get("results").toString().contains("Sainsbury's Blackcurrants 150g"));
